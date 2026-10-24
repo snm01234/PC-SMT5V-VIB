@@ -26,6 +26,8 @@
 3. 배포 모듈의 **`xinput1_3.dll`**, **`SMT5V-Haptics.ini`** 두 파일을 게임의 **`SMT5V/Project/Binaries/Win64/`**에 복사합니다. 기존 INI가 있다면 업데이트 시 보존합니다. 다른 모드의 `xinput1_3.dll`이 이미 있다면 덮어쓰지 마세요.
 4. 컨트롤러를 연결하고 Steam에서 게임을 평소대로 실행합니다.
 
+
+```text
 SMT5V/
 └─ Project/
    └─ Binaries/
@@ -33,6 +35,7 @@ SMT5V/
          ├─ SMT5V-Win64-Shipping.exe  ← 기존 게임 파일
          ├─ xinput1_3.dll
          └─ SMT5V-Haptics.ini
+```
 
 **Windows에서는 파일명을 `xinput1_3.dll`로 유지하며, 별도 실행 옵션은 필요 없습니다.** `SteamDeck` 폴더의 `d3d11.dll`은 Windows 설치에 사용하지 않습니다.
 
