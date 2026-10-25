@@ -115,11 +115,4 @@ WINEDLLOVERRIDES="d3d11=n,b" %command%
 
 - **업데이트:** 게임 종료 후 이 모드의 DLL을 교체하고 기존 INI는 보존합니다.
 - **제거:** 게임 종료 후 이 모드의 `xinput1_3.dll`을 제거합니다. INI와 로그는 원하면 함께 제거할 수 있습니다.
-
-## 파일 확인
-
-배포 DLL의 SHA256:
-
-```text
-70FB6309DF48970EF37C7C31E235DE7AFFAFBA34C0E89EAE605A9B81E0837E5A
 ```
